@@ -80,8 +80,12 @@ event-log figure. Ask Claude to add it once you have the file.
 
 Reviewed against the signed engagement letters on 2026-09-14.
 
-- The caption of the patent litigation and the name of retaining counsel (confidential
-  under the engagement letter; testimony is listed by court, side, type, and year only).
+- The patent litigation entirely: caption, retaining counsel, court, side, and dates. The
+  engagement letter (Dec 13, 2022) keeps even the fact of the engagement confidential absent
+  written consent from the firm or its client. The page says only that deposition and trial
+  testimony was given in federal patent litigation. Restore court/year/type in the testimony
+  table only after written consent is received.
+- Whether the Massachusetts matter settled (no settlement paperwork on file to check).
 - The Kirkland & Ellis consulting engagement by name, and any description of that work
   (the retention letter keeps activities and conclusions confidential; listed only as an
   unnamed consulting-expert line).
