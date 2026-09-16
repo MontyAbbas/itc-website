@@ -151,7 +151,9 @@ p { margin: 0; }
 .hero h1 { max-width: 18ch; }
 .hero .lede { max-width: 56ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; }
-.hero-who { display: flex; flex-direction: column; gap: 2px; padding-top: 14px; border-top: 1px solid var(--rule); }
+.hero-who { display: flex; align-items: center; gap: 18px; padding-top: 18px; border-top: 1px solid var(--rule); }
+.hero-who > div { display: flex; flex-direction: column; gap: 2px; }
+.hero-portrait { flex: none; width: 96px; height: 120px; object-fit: cover; border-radius: 8px; box-shadow: var(--shadow); }
 .hero-who strong { font-family: var(--font-display); font-weight: 500; font-size: 1.2rem; }
 .hero-who span { color: var(--ink-2); font-size: .95rem; }
 @media (max-width: 900px) { .hero .wrap { grid-template-columns: 1fr; } .hero-graphic { max-width: 560px; } }
