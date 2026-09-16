@@ -9,6 +9,7 @@ website/
   styles.css                    all styling (light and dark themes)
   favicon.svg                   browser-tab icon
   robots.txt                    lets search engines index the site
+  headshot.jpg                  portrait shown in the hero (600x750 JPEG, ~70 KB)
   CNAME                         tells GitHub Pages which custom domain to serve
   .nojekyll                     tells GitHub Pages to publish the files as-is
 ```
@@ -73,8 +74,9 @@ page. Moving the website does not affect email; only the `A` and `www` records c
    button, contact button, contact list, JSON-LD block). Search and replace if it ever changes.
 2. **CV.** The CV is not published; the page says it is provided to counsel on request.
 
-Optional: add a headshot. A professional photo belongs in the hero, to the left of the
-event-log figure. Ask Claude to add it once you have the file.
+3. **Headshot.** `headshot.jpg` is a 4:5 crop of the original photo, which is kept in
+   Dropbox → Expert wittness → Engagement Kit 2026 → Headshot. To replace it, crop the new
+   photo to 600x750, save as JPEG, and overwrite the file.
 
 ## Content that was deliberately kept off the site
 
